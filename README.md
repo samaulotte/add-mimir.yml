@@ -1,4 +1,7 @@
-# add-mimir.yml
+```yaml
+# Do not use this configuration in production.
+# It is for demonstration purposes only.
+# Run Mimir in single process mode, with all components running in 1 process.
 
 target: all,alertmanager,overrides-exporter
 
@@ -31,3 +34,4 @@ memberlist:
 
 server:
   log_level: warn
+```
